@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "verificationEmailSent": "Verification email sent.",
+    "passwordChanged": "Password successfully changed.",
+    "forgotPasswordSent": "Password reset email has been sent.",
+    "passwordReset": "Password has been reset successfully.",
+    "emailVerified": "Email successfully verified."
+  }
+}

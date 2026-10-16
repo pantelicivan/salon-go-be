@@ -1,0 +1,47 @@
+version: '3.5'
+services:
+  app:
+    container_name: core-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/server
+      - node_modules:/server/node_modules
+    depends_on:
+      - redis
+      - postgres
+    ports:
+      - 4000:4000
+    env_file:
+      - ./.env
+    networks:
+      - main
+  postgres:
+    image: postgres:14
+    container_name: core-postgres
+    environment:
+      POSTGRES_USER: coreuser
+      POSTGRES_PASSWORD: corepass
+      POSTGRES_DB: core
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - main
+    restart: unless-stopped
+  redis:
+    image: redis:7.0.5
+    container_name: core-redis
+    ports:
+      - 6379:6379
+    networks:
+      - main
+networks:
+  main:
+    name: nestjs-core-network
+    driver: bridge
+volumes:
+  pgdata:
+  node_modules:

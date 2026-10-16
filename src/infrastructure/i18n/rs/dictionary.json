@@ -1,0 +1,11 @@
+{
+  "Entity": "Entitet",
+  "Account": "Nalog",
+  "User": "Korisnik",
+  "File": "Datoteka",
+  "Product": "Proizvod",
+  "Price": "Cena",
+  "Subscription": "Pretplata",
+  "SubscriptionItem": "Stavka pretplate",
+  "Role": "Uloga"
+}

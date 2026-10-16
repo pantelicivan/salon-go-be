@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "node20",
+    "target": "es2024",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "strict": false,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "types": ["node", "jest"]
+  }
+}

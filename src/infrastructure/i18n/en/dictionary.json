@@ -1,0 +1,11 @@
+{
+  "Entity": "Entity",
+  "Account": "Account",
+  "User": "User",
+  "File": "File",
+  "Product": "Product",
+  "Price": "Price",
+  "Subscription": "Subscription",
+  "SubscriptionItem": "Subscription item",
+  "Role": "Role"
+}

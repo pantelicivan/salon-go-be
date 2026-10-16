@@ -1,0 +1,13 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "tsConfigPath": "tsconfig.build.json",
+    "deleteOutDir": true,
+    "plugins": ["@nestjs/swagger/plugin"],
+    "assets": [
+      { "include": "**/*.hbs", "watchAssets": true },
+      { "include": "infrastructure/i18n/**/*.json", "watchAssets": true }
+    ]
+  }
+}

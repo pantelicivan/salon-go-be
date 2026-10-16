@@ -1,0 +1,20 @@
+{
+  "isNotEmpty": "{property} should not be empty.",
+  "isEnum": "{property} is not a valid enum.",
+  "isInt": "{property} must be an integer.",
+  "isNumber": "{property} must be number.",
+  "isPositive": "{property} must be positive number.",
+  "isString": "{property} must be a string.",
+  "isBoolean": "{property} must be a boolean.",
+  "isArray": "{property} must be an array.",
+  "isDate": "{property} must be a valid date.",
+  "isFutureDate": "{property} must be a date in the future.",
+  "isPastDate": "{property} must be a date in the past.",
+  "minLength": "{property} must be longer than or equal to {length} characters.",
+  "isMatchedRegex": "{property} must match the regex.",
+  "mustMatch": "{property} must match {matchingProperty}.",
+  "emailNotValid": "Email is not valid.",
+  "isUUID": "{property} must be a valid UUID.",
+  "arrayMinSize": "{property} must have at least {minSize} {object}.",
+  "isValidPassword": "Password should include at least one lowercase and one uppercase letter and have minimum 6 characters."
+}

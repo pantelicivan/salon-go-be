@@ -1,0 +1,29 @@
+{
+  "unknownError": "Request completely failed, a team of highly diverse and gender-fluid humans are working on it.",
+  "entityNotFound": "{entity} not found.",
+  "entityAlreadyExists": "{entity} already exists.",
+  "nothingToUpdate": "Nothing to update.",
+  "unexpectedError": "An unexpected error has occurred.",
+  "fileMissing": "File missing.",
+  "fileUploadFailed": "File upload failed.",
+  "emailFailed": "Email failed to send.",
+  "dateFormatError": "Please provide date in the following format: '{format}'.",
+  "invalidUUID": "{value} is not valid uuid.",
+  "invalidPayload": "Invalid payload.",
+  "updateFailed": "Update failed.",
+  "missingRelation": "{value} relation is missing.",
+  "auth": {
+    "wrongCredentials": "Wrong credentials.",
+    "invalidRefreshToken": "Invalid refresh token.",
+    "invalidEmailVerificationToken": "Invalid email verification token.",
+    "unsupportedSocialProvider": "Unsupported social provider.",
+    "invalidSocialAuthToken": "Invalid social authentication token",
+    "socialAuthenticationFailed": "Social authentication failed.",
+    "resetAlreadySent": "Password reset email has already been sent.",
+    "resetPasswordFailed": "Failed to reset password",
+    "emailAlreadyVerified": "Email has already been verified.",
+    "emailVerificationAlreadySent": "Verification email has already been sent.",
+    "emailVerificationFailed": "Failed to send verification email.",
+    "emailAlreadyTaken": "Email has already been taken."
+  }
+}

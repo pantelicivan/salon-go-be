@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "verificationEmailSent": "Verifikacioni email je poslat.",
+    "passwordChanged": "Šifra je uspešno promenjena.",
+    "forgotPasswordSent": "Email za resetovanje šifre je poslat.",
+    "passwordReset": "Šifra je uspešno resetovana.",
+    "emailVerified": "Email je uspešno verifikovan."
+  }
+}

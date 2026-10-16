@@ -1,0 +1,20 @@
+{
+  "isNotEmpty": "{property} je obavezno polje.",
+  "isInt": "{property} mora biti ceo broj.",
+  "isNumber": "{property} mora biti broj.",
+  "isPositive": "{property} mora biti pozitivan broj.",
+  "isString": "{property} mora biti tekst.",
+  "isBoolean": "{property} mora biti boolean.",
+  "isEnum": "{property} nije validan enum.",
+  "isArray": "{property} mora biti niz.",
+  "isDate": "{property} mora biti validan datum.",
+  "isFutureDate": "{property} mora biti datum u budućnosti.",
+  "isPastDate": "{property} mora biti datum u prošlosti.",
+  "minLength": "{property} mora biti duži od {length} karaktera.",
+  "isMatchedRegex": "{property} mora ispunjavati regularni izraz.",
+  "mustMatch": "{property} mora biti isti kao {matchingProperty}.",
+  "emailNotValid": "Email nije validan.",
+  "isUUID": "{property} mora biti validan UUID.",
+  "arrayMinSize": "{property} mora imati barem {minSize} {object}.",
+  "isValidPassword": "Šifra mora da sadrži najmanje jedno malo i jedno veliko slovo i mora imati najmanje 6 karaktera."
+}

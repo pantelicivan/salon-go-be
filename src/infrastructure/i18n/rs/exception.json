@@ -1,0 +1,29 @@
+{
+  "unknownError": "Došlo je do nepredviđene greške. Tim profesionalaca radi na tome.",
+  "entityNotFound": "{entity} nije pronađen/a.",
+  "entityAlreadyExists": "{entity} već postoji.",
+  "nothingToUpdate": "Ne postoji ništa za ažuriranje.",
+  "unexpectedError": "Došlo je do neočekivane greške.",
+  "fileMissing": "Datoteka nedostaje.",
+  "fileUploadFailed": "Čuvanje datoteke nije uspelo.",
+  "emailFailed": "Email nije uspeo da se pošalje.",
+  "dateFormatError": "Molimo dostavite datum u sledećem formatu: '{format}'.",
+  "invalidUUID": "{value} nije validan uuid.",
+  "invalidPayload": "Zahtev nije validan.",
+  "updateFailed": "Ažuriranje nije uspelo.",
+  "missingRelation": "Nedostaje relacija za kategoriju: {value}.",
+  "auth": {
+    "wrongCredentials": "Pogrešni kredencijali.",
+    "invalidRefreshToken": "Nevalidan refresh token.",
+    "invalidEmailVerificationToken": "Nevalidan token za verifikaciju email-a.",
+    "unsupportedSocialProvider": "Društveni provajder nije podržan.",
+    "invalidSocialAuthToken": "Nevalidan društveni token za autentifikaciju.",
+    "socialAuthenticationFailed": "Autentifikacija preko socijalne mereže nije uspela.",
+    "resetAlreadySent": "Email za promenu šifre je već poslat.",
+    "resetPasswordFailed": "Neuspešna promena šifre.",
+    "emailAlreadyVerified": "Email adresa je već verifikovana.",
+    "emailVerificationAlreadySent": "Email za verifikaciju naloga je već poslat.",
+    "emailVerificationFailed": "Neuspešno slanje email-a za verifikaciju.",
+    "emailAlreadyTaken": "Email je već zauzet."
+  }
+}
